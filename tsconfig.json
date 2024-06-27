@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "ES2020", // Compile to a version that supports ES Modules
+    "module": "NodeNext", // Target ESNext for module syntax
+    "moduleResolution": "NodeNext", // Work with Node.js-style resolution
+    "sourceMap": true,
+    "outDir": "build",
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*", "server.ts"]
+}
